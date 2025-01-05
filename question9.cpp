@@ -1,0 +1,47 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int number1,number2,number3,number4,number5,number6,number7,number8,number9,number10,number11,number12,number13,number14,number15;
+    cout<<"enter your ist number"<<endl;
+    cin>>number1;
+    cout<<"enter your second number"<<endl;
+    cin>>number2;
+    cout<<"enter your third number"<<endl;
+    cin>>number3;
+    cout<<"enter you forth number"<<endl;
+    cin>>number4;
+    cout<<"enter your fifth number"<<endl;
+    cin>>number5;
+    cout<<"enter your sixth number"<<endl;
+    cin>>number6;
+    cout<<"enter your seventh number"<<endl;
+    cin>>number7;
+    cout<<"enter your eigth number"<<endl;
+    cin>>number8;
+    cout<<"enter your ninth number"<<endl;
+    cin>>number9;
+    cout<<"enter your tenth number"<<endl;
+    cin>>number10;
+    cout<<"enter your 11 number"<<endl;
+    cin>>number11;
+    cout<<"enter your 12 number"<<endl;
+    cin>>number12;
+    cout<<"enter your 13 number"<<endl;
+    cin>>number13;
+    cout<<"enter your 14 number"<<endl;
+    cin>>number14;
+    cout<<"enter your 15 number"<<endl;
+    cin>>number15;
+    int sum;
+    sum=number1+number2+number3+number4+number5;
+    cout<<" the sum is"<<sum<<endl;
+    int product;
+    product=number6*number7*number8*number9*number10;
+    cout<<"the product is"<<product<<endl;
+    int subtraction;
+    subtraction=number11-number12-number13-number14-number15;
+    int finalResult;
+    finalResult=(sum+product)-subtraction;
+    cout<<"the final result is"<<finalResult<<endl;
+    return 0;
+}
